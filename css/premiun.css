@@ -14,7 +14,7 @@
     border-radius: 100px;
 }
 
-#apresentar h1, p, #button{
+#apresentar h1, p {
     padding-top: 15px;
     padding-left: 15px;
 }
@@ -63,6 +63,7 @@
 .apresentar {
     padding: 50px;
     text-align: center;
+    background-color: #EFEFEF;
 }
 
 .apresentar h5{
@@ -85,14 +86,41 @@
     color: #1D75DE;
 }
 
-.beneficios #foto-desc h4, p{
-    width: 20%;
-    justify-content: center;
-    flex-direction: row;
+#preben{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 25px;
 }
 
-.beneficios #foto-desc, h4, p{
+.beneficios{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
 }
 
+.descbeneficios{
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: row;
+    flex-flow: row wrap
+}
+
+.descbeneficios .desc{
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    gap: 10%;
+    width: 20%;
+    left: 10%;
+    margin-top: 20px;
+}
+
+.descbeneficios p{
+    font-size: 15px;
+    color: #62625F;
+}
+
+.descbeneficios h1{
+    color: #1D1E1E;
+}
